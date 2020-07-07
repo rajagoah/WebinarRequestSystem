@@ -1,0 +1,8 @@
+//Steps to download Tomcat server on mac machine
+1. Ensure that you have a version of Java installed on the system.
+	- you can check the version of java on the mac by using the below command:
+		$ java -version
+2. Download the latest version of Apache tomcat from their website. For mac, download the 'tar.gz' file.
+3. Upon downloading, move the file to the desired folder and extract the content of the .gz file
+4. Open terminal >> navigate to the folder where tomcat is extracted >> execute the 'startup.sh' file
+5. Tomcat server will startup

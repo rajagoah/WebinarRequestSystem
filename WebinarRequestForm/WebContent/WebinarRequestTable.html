@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-.button{
-		border : none;
-		background-color : orange;
-		padding: 15px 32px;
-		text-align : center;
-		text-decoration : none;
-		}
-
-</style>
-</head>
-<body>
-<h1>Webinar Requests</h1>
-<p>Use the button below to retrieve all the requested webinars</p>	
-<button type = "submit", class = "button">Click me for the file!!</button>
-</body>
+	<style>
+		.button_1{
+				border					: black;
+				background-color		: orange;		
+				}	
+	</style>
+	<head>
+	<h1>Webinar Requests</h1>
+	<p>The below link will take you to kintone website</p>
+	</head>
+	<body>
+	<button type = "button"
+			onclick = "myFunction()"
+			class = "button_1">
+			This button will display an alert!
+	</button>
+	</body>
+	<script>
+		function myFunction(){
+			location.href='https://ishafoundation.kintone.com';	
+				}
+	</script>
 </html>
